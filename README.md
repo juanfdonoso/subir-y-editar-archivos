@@ -6,6 +6,7 @@ El código permite subir archivos de las siguientes características:
 <li>Que sean archivos PDF</li>
 <li>Que sean videos mp4</li>
 <li>Que los archivos pesen menos de 500Mb(*)</li>
+</ul>
  El código impide subir archivos de cualquier otro formato
  Cuando se suba una imagen PNG, GIF o JPG, el código checa que se suba también el texto alternativo para dicha imagen
  
@@ -19,6 +20,6 @@ El código permite subir archivos de las siguientes características:
   <li>orientacion (varchar(5)) - campo para almacenar la orientación de la imagen: H o V</li>
   <li>fecha (timestamp) - campo con valor por defecto del current time stamp</li>
  </ul>
- 
+ <br><br>
  (*) PHP.ini debe estar configurado para aceptar carga de archivos de hasta 500MB
   
