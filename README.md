@@ -8,8 +8,8 @@ El código permite subir archivos de las siguientes características:
 <li>Que los archivos pesen menos de 500Mb(*)</li>
 </ul>
  El código impide subir archivos de cualquier otro formato
- Cuando se suba una imagen PNG, GIF o JPG, el código checa que se suba también el texto alternativo para dicha imagen
- 
+ Cuando se suba una imagen PNG, GIF o JPG, el código checa que se suba también el texto alternativo para dicha imagen.
+ <br><br>
  El código permite visualizar, editar (reemplazar) y borrar los archivos subidos al servidor.
  Los nombres de los archivos se guardan en una tabla de la Base de Datos que tiene los siguientes campos:
  <ul>
