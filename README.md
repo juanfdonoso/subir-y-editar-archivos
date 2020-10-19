@@ -12,6 +12,7 @@ El código permite subir archivos de las siguientes características:
  <br><br>
  El código permite visualizar, editar (reemplazar) y borrar los archivos subidos al servidor.
  Los nombres de los archivos se guardan en una tabla de la Base de Datos que tiene los siguientes campos:
+ 
  <ul>
   <li>idArchivo (int, primary key, auto_increment)</li>
   <li>archivo (vachar(100)) - campo para almacenar el nombre del archivo</li>
