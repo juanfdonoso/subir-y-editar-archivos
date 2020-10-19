@@ -11,8 +11,8 @@ El código permite subir archivos de las siguientes características:
  Cuando se suba una imagen PNG, GIF o JPG, el código checa que se suba también el texto alternativo para dicha imagen.
  <br><br>
  El código permite visualizar, editar (reemplazar) y borrar los archivos subidos al servidor.
- Los nombres de los archivos se guardan en una tabla de la Base de Datos que tiene los siguientes campos:
- 
+ Los nombres de los archivos se guardan en una tabla de la Base de Datos, llamada **juanf_A_archivos** que tiene los siguientes campos:
+ <br>
  <ul>
   <li>idArchivo (int, primary key, auto_increment)</li>
   <li>archivo (vachar(100)) - campo para almacenar el nombre del archivo</li>
