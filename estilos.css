@@ -1,0 +1,202 @@
+body{
+    background-color: #e5e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+/***** HEADER *****/
+.header{
+    width: 100%;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(11, 56, 54);
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    
+}
+
+.header button{
+    padding: 10px;
+    border: solid 1px white;
+    background-color: rgb(11, 56, 54);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.header button:hover{
+    background-color: white;
+    color: rgb(11, 56, 54);
+}
+
+
+.header h1{
+    color: white;
+    margin-left: 55px;
+}
+
+/****** TERMINA HEADER ******/
+
+/****** CONTENEDOR ARCHIVOS ******/
+
+.contenedor{
+    width: 100%;
+    min-width: 400px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor .texto{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedor .archivo{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.contenedor .archivo > div.iconos{
+    height: 30px;
+    width: 100%;
+    /*background-color: lavender;*/
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.contenedor .archivo > div.iconos button{
+    border: none;
+    background-color: transparent;
+    color: rgb(126, 126, 126);
+    font-size:18px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.imagenH{
+    width:230px;
+}
+
+.imagenV{
+    height:190px;
+}
+
+.imagenPDF{
+    padding-top: 35px;
+}
+
+.contenedor .archivo > div.textoArchivo{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/****** PAGINA NUEVO ARCHIVO ********/
+
+.contenedor .contenedorFormulario{
+    width: 600px;
+    height: 300px;
+    border: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.formularioSubirArchivo{
+    margin-top: 30px;
+}
+
+.botonSubirFoto{
+    border: solid 1px rgb(11, 56, 54);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    color:rgb(11, 56, 54);
+    cursor: pointer;
+    background-color: white;
+}
+
+.textoFoto{
+    border: solid 1px rgb(11, 56, 54);
+    border-radius: 5px;
+    font-size: 14px;
+    /*color:rgb(11, 56, 54);*/
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.asterisco{
+    font-size:24px;
+    color: #C00000;
+}
+
+.mensajeObligatorio{
+    font-size: 10px;
+    color: #C00000;
+}
+
+.botonSubirFoto:hover{
+    background-color: rgb(11, 56, 54);
+    color: white;
+}
+
+.botonCancelar{
+    border: solid 1px rgb(139, 139, 139);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    color:rgb(139, 139, 139);
+    cursor: pointer;
+    background-color: white;
+}
+
+.botonCancelar:hover{
+    background-color: rgb(139, 139, 139);
+    color: white;
+}
+
+.foto{
+    width: 80%;
+}
+
+.fotoEditar{
+    width: 40%;
+}
+
+.error{
+    font-size: 14px;
+    font-weight: 600;
+    color: #C00000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/****** PAGINA EDITAR ARCHIVO ********/
+
+.contenedor .contenedorArchivosEditar{
+    width: 100%;
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+
